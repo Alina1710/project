@@ -1,0 +1,373 @@
+@font-face{
+    font-family:Georgia;
+    src: url(fonts/Georgia.ttf);
+}
+@font-face{
+    font-family:Myriad;
+    src: url(fonts/MyriadPro-Black.ttf);
+}
+@font-face{
+    font-family: Georgia_italic;
+    src: url(fonts/georgia italic.ttf);
+}
+@font-face{
+    font-family: 'Coffee';
+    src: url('../fonts/Coffee_Service.ttf');
+}
+.buttons{
+    margin-left: 52px;
+    margin-top: 90px;
+    max-width: 1900px;
+    height: 1000px;
+}
+button{
+    width: 171px;
+    height: 45px;
+}
+.buttons__btn_blue1{
+    position: relative;
+    background-color: #3675A8;
+    border: 2px solid #408AC4;
+    border-style: groove;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 14px; 
+    margin-right: 28px;
+}
+.circle_line{
+    width: 41px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-right: 1px solid #408AC4;
+    border-right-style: groove;
+  
+}
+.circle{
+    width: 20px;
+	height: 20px;
+	background: #E0E0E0;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    border: 2px solid #408AC4;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+.circle img{
+    padding-top: 7px;
+}
+.buttons__btn_blue1 span{
+    position: absolute;
+    top: 14px;
+    left: 56px;
+    font-family: Georgia;
+
+}
+.buttons__btn_blue2{
+    position: relative;
+    background-color: #3675A8;
+    border: 2px solid #408AC4;
+    border-style: groove;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 14px; 
+}
+.buttons__btn_blue2 span{
+    position: absolute;
+    top: 14px;
+    left: 56px;
+    font-family: Georgia;
+}
+.btn_green{
+    margin-top: 21px;
+}
+.buttons__btn_green1{
+    position: relative;
+    background-color: #9CD538;
+    border: 2px solid #A8E018;
+    border-style: groove;
+    border-radius: 5px;
+    color: #306000;
+    font-size: 16px;
+    margin-right: 28px;
+}
+.buttons__btn_green1 .circle_line{
+    border-right: 1px solid #A8E018;
+   border-right-style: groove;
+}
+.buttons__btn_green1 .circle{
+    border: 2px solid #A8E018;
+}
+.buttons__btn_green1 span{
+    position: absolute;
+     top: 14px;
+    left: 56px;
+    font-family: Myriad;
+    text-transform: uppercase;
+}
+.buttons__btn_green2{
+     position: relative;
+    background-color: #9CD538;
+    border: 2px solid #A8E018;
+    border-style: groove;
+    border-radius: 50px;
+    color: #306000;
+    font-size: 16px;
+}
+.buttons__btn_green2 .circle_line{
+    border-right: 1px solid #A8E018;
+   border-right-style: groove;
+}
+.buttons__btn_green2 .circle{
+    border: 2px solid #A8E018;
+}
+.buttons__btn_green2 span{
+    position: absolute;
+     top: 14px;
+    left: 56px;
+    font-family: Myriad;
+    text-transform: uppercase;
+}
+.btn_yellow button{
+    width: 119px;
+    height: 38px;
+    background-color: #E8D079;
+    border-radius: 50px;
+    border: 1px solid #DBC989;
+    color: #252525;
+    font-size: 14px;
+    font-family: Georgia_italic;
+    margin-top: 34px;
+    margin-right: 22px;
+}
+.buttons__btn_yelow2{
+    position: relative;
+}
+.buttons__btn_yelow2 .circle{
+    border: none;
+    border-top: 1px solid black;
+    margin-top: 2px;
+}
+.buttons__btn_yelow2 span{
+    position: absolute;
+    top: 12px;
+    left: 49px;
+}
+.buttons__btn_yelow3{
+    position: relative;
+}
+.buttons__btn_yelow3 .circle{
+    border: none;
+    border-top: 1px solid black;
+    margin-top: 2px;
+    margin-left: 78px;
+}
+.buttons__btn_yelow3 span{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.btn_colorfull button{
+    width: 109px;
+    height: 28px;
+    border-radius: 40px;
+    margin-top: 27px;
+    margin-right: 28px;
+    font-family: Coffee;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.btn_colorfull button img{
+    float: right;
+    margin-top: 8px;
+    margin-right: 2px;
+    height: 10px;
+}
+.buttons__btn_colorful1{
+    background-color: #6E5232;
+    border: 1px solid #9E866B;
+    border-style: groove;
+}
+.buttons__btn_colorful2{
+    background-color: #BB6600;
+    border: 1px solid #DEA440;
+    border-style: groove;
+}
+.buttons__btn_colorful3{
+    background-color: #BE4765;
+     border: 1px solid #E087A4;
+    border-style: groove;
+}
+.btn_grey button{
+    width: 105px;
+    height: 26px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #D6D6D6;
+    color: #4A4A4A;
+    font-size: 12px;
+    font-family:Myriad;
+    margin-top: 24px;
+    margin-right: 18px;
+}
+.buttons__btn_grey2{
+    text-transform: uppercase;
+}
+.buttons__btn_grey3{
+    text-transform: uppercase;
+}
+.buttons__btn_grey3 img{
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 4px;
+}
+.btn_orange button{
+    width: 108px;
+    height: 30px;
+    border-radius: 60px;
+    border: 1px solid #FEDAAD;
+    border-style: groove;
+    background-color: #FBA956;
+    font-family: Myriad;
+    font-size: 14px;
+    color: #63492D;
+    margin-right: 21px;
+    margin-top: 26px;
+}
+.buttons__btn_orange2{
+    text-transform: uppercase;
+}
+.buttons__btn_orange3{
+   position: relative;
+    text-transform: uppercase;
+}
+.buttons__btn_orange3 .circle{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: none;
+    border-top: 1px solid black;
+    border-top-style: groove;
+}
+.buttons__btn_orange3 b{
+    margin-left: 23px;
+    font-size: 12px;
+}
+.btn_blue-m button{
+    height: 37px;
+    background-color: #387AAD;
+    border-radius: 5px;
+    border-style: none;
+    border-bottom: 2px solid #C6C6C6;
+    border-bottom-style: ridge;
+    font-family: Myriad;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 26px;
+    margin-right: 13px;
+}
+.buttons__btn_blue-m1{
+    position: relative;
+    width: 125px;
+}
+.buttons__btn_blue-m1 img{
+    float: left;
+    margin-left: 3px;
+    margin-right: 8px;
+    margin-top: 3px;
+}
+.buttons__btn_blue-m1 .triangle{
+    position: absolute;
+    width: 32px;
+    height: 37px;
+    transform: skew(-20deg);
+    background-color: white;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    margin-left: -5px;
+}
+.buttons__btn_blue-m2{
+    width: 108px;
+}
+.buttons__btn_blue-m2 img{
+    float: left;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.buttons__btn_blue-m3{
+    width: 117px;
+    display: inline-block;
+}
+.buttons__btn_blue-m3 .circle{
+    border: none;
+    background-color: #FFFFFF;
+    margin-left: 0;
+    margin-top: 6px;
+}
+.buttons__btn_blue-m3 .circle img{
+    margin-left: 1px;
+}
+.buttons__btn_blue-m3 p{
+  margin-top: -15px;
+  margin-left: 20px;  
+}
+.btn_lime button{
+    background-color: #A4D047;
+    border-radius: 5px;
+    border: 1px solid #C9EC53;
+    border-style: ridge;
+    box-shadow: 0 5px 0px -3px #6FA400;
+    margin-top: 26px;
+    margin-right: 20px;
+    color: #F6F8F5;
+    font-family: Georgia;
+    font-size: 14px;
+}
+.buttons__btn_lime1{
+    position: relative;
+}
+.buttons__btn_lime1 .circle{
+    border: none;
+   border-top: 1px solid black;
+    border-top-style: groove;
+}
+.buttons__btn_lime1 .circle_line{
+    width: 41px;
+    padding-top: 6px;
+    padding-bottom: 11px;
+    border-right: 1px solid #CEEF5B;
+    border-right-style: groove;
+}
+.buttons__btn_lime1 span{
+    position: absolute;
+     top: 14px;
+    left: 56px;
+}
+.buttons__btn_lime2{
+    position: relative;
+}
+.buttons__btn_lime2 img{
+   margin-top: 6px;
+   
+}
+.buttons__btn_lime2 .circle_line{
+    width: 41px;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    border-right: 1px solid #CEEF5B;
+    border-right-style: groove;
+}
+.buttons__btn_lime2 span{
+    position: absolute;
+     top: 14px;
+    left: 56px;
+}
+
+
+
+
+
